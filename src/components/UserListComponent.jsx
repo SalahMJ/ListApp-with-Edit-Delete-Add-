@@ -48,7 +48,9 @@ function UserList() {
     };
 
     const handleAddUser = () => {
-        setUsers([...users, formData]);
+        const lastUserId = users.length > 0 ? users[users.length - 1].id : 0;
+        const newUser = { ...formData, id: lastUserId + 1 }; 
+        setUsers([...users, newUser]);
         handleCloseModal();
     };
 
