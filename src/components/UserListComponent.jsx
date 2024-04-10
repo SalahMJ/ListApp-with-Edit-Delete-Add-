@@ -87,7 +87,7 @@ function UserList() {
             <h4>Github Users 🧑🏻‍💻</h4>
            
 
-            <Table striped bordered hover variant="dark">
+            <Table striped bordered hover variant="dark" className='fixed-size-table'>
                 <thead>
                     <tr>
                         <th className='thStyle'>Username</th>

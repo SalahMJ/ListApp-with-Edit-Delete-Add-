@@ -44,3 +44,13 @@
 h4{
   padding: 11px;
 }
+
+.fixed-size-table {
+  width: 600px; 
+}
+
+.fixed-size-table th,
+.fixed-size-table td {
+  width: 300px;
+
+}
